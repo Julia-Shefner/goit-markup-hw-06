@@ -253,51 +253,37 @@ form {
 
 /* ***===ADVANTAGES===*** */
 
-.advantages {
+/* .advantages {
   background-color: #ffffff;
-}
-
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 } */
 
-.advantages-list {
+/* .advantages-list {
   display: flex;
   gap: 24px;
-  /* width: calc((100% - 3 * 24px) / 4); */
-}
+} */
 
-.advantages-list-item {
+/* .advantages-list-item {
   width: calc((100% - 3 * 24px) / 4);
-}
+} */
 
-.advantages-subtitle {
+/* .advantages-subtitle {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
   font-weight: 500;
   color: #2e2f42;
   margin-bottom: 8px;
-}
+} */
 
-.advantages-list-text {
+/* .advantages-list-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
-}
+} */
 
-.advantages-picture {
+/* .advantages-picture {
   width: 264px;
   height: 112px;
   border: 1px solid #8e8f99;
@@ -307,15 +293,15 @@ form {
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
-}
+} */
 
 /* ***===OUR TEAM===*** */
 
-.our-team {
+/* .our-team {
   background-color: #f4f4fd;
-}
+} */
 
-.our-team-title {
+/* .our-team-title {
   font-size: 36px;
   letter-spacing: 0.02em;
   line-height: 1.11;
@@ -324,22 +310,22 @@ form {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-}
+} */
 
-.our-team-list {
+/* .our-team-list {
   display: flex;
   gap: 24px;
-}
+} */
 
-.our-team-list-item {
+/* .our-team-list-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   width: calc((100% - 72px) / 4);
-}
+} */
 
-.our-team-subtitle {
+/* .our-team-subtitle {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
@@ -347,9 +333,9 @@ form {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
-}
+} */
 
-.our-team-text {
+/* .our-team-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -357,23 +343,23 @@ form {
   font-weight: 400;
   text-align: center;
   margin-bottom: 8px;
-}
+} */
 
-.our-team-card {
+/* .our-team-card {
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 
-.our-team-social-list {
+/* .our-team-social-list {
   display: flex;
   gap: 24px;
   width: 232px;
   height: 40px;
   justify-content: center;
   margin: 0 auto;
-}
+} */
 
-.our-team-icon-body {
+/* .our-team-icon-body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -382,12 +368,12 @@ form {
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.our-team-icon-body:hover,
+/* .our-team-icon-body:hover,
 .our-team-icon-body:focus {
   background-color: #404bbf;
-}
+} */
 
 /* ***===OUR PORTFOLIO===*** */
 .our-portf {
