@@ -54,6 +54,79 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" type="button">
+            <svg class="mobile-btn-cross-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-nav-link-list">
+              <li>
+                <a href="" class="mobile-nav-link current">Studio</a>
+              </li>
+              <li>
+                <a href="" class="mobile-nav-link">Portfolio</a>
+              </li>
+              <li>
+                <a href="" class="mobile-nav-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-menu-address">
+            <ul class="mobile-address-list">
+              <li>
+                <a href="mailto:info@devstudio.com" class="mobile-adress-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="mobile-adress-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="mobile-menu-social">
+            <ul class="mobile-social-list">
+              <li class="mobile-social-item">
+                <a href="" class="mobile-social-icon-body">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a href="" class="mobile-social-icon-body">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a href="" class="mobile-social-icon-body">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a href="" class="mobile-social-icon-body">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -68,7 +141,7 @@
       </section>
 
       <!--Our-Advantages-->
-      <section class="advantages section">
+      <section class="advantages section visually-hidden">
         <div class="container">
           <h2 class="advantages-title visually-hidden">Our Advantages</h2>
           <ul class="advantages-list">
@@ -125,11 +198,10 @@
       </section>
 
       <!--Our-Team-->
-      <section class="our-team section">
+      <section class="our-team section visually-hidden">
         <div class="container">
           <h2 class="our-team-title">Our Team</h2>
           <ul class="our-team-list">
-            <!--Product-Designer-->
             <li class="our-team-list-item">
               <img
                 src="./images/photo1.jpg"
@@ -172,7 +244,6 @@
                 </ul>
               </div>
             </li>
-            <!--Frontend-Developer-->
             <li class="our-team-list-item">
               <img
                 src="./images/photo2.jpg"
@@ -215,7 +286,6 @@
                 </ul>
               </div>
             </li>
-            <!--Marketing-->
             <li class="our-team-list-item">
               <img
                 src="./images/photo3.jpg"
@@ -258,7 +328,6 @@
                 </ul>
               </div>
             </li>
-            <!--UI-Designer-->
             <li class="our-team-list-item">
               <img
                 src="./images/photo4.jpg"
@@ -306,7 +375,7 @@
       </section>
 
       <!-- Our Portfolio -->
-      <section class="our-portf section">
+      <section class="our-portf section visually-hidden">
         <div class="container">
           <h2 class="our-portf-title">Our Portfolio</h2>
           <ul class="our-portf-list">
@@ -430,7 +499,7 @@
     </main>
 
     <!--Footer-->
-    <footer class="footer">
+    <footer class="footer visually-hidden">
       <div class="container footer-container">
         <div class="footer-content">
           <a href="./index.html" class="logo footer-logo"
@@ -496,7 +565,7 @@
     </footer>
 
     <!-- Modal -->
-    <div class="modal-overlay">
+    <div class="modal-overlay visually-hidden">
       <div class="modal">
         <button class="modal-btn-cross" type="button">
           <svg class="modal-btn-cross-icon" width="8" height="8">
